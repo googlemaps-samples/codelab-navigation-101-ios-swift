@@ -1,0 +1,24 @@
+PODS:
+  - GoogleMaps (9.0.0):
+    - GoogleMaps/Maps (= 9.0.0)
+  - GoogleMaps/Base (9.0.0)
+  - GoogleMaps/Maps (9.0.0):
+    - GoogleMaps/Base
+  - GoogleNavigation (9.0.0):
+    - GoogleMaps (= 9.0.0)
+
+DEPENDENCIES:
+  - GoogleNavigation (= 9.0.0)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - GoogleMaps
+    - GoogleNavigation
+
+SPEC CHECKSUMS:
+  GoogleMaps: 4907d0d42bf8cd58f56743e31f91d23c10682745
+  GoogleNavigation: 20ecaa2aab4cdb3d60e8176548663af8352bf798
+
+PODFILE CHECKSUM: 04230f05f55616532c90f05e6ca45dc68bf317ca
+
+COCOAPODS: 1.15.2

@@ -1,0 +1,682 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9D0269952C3FE5EE0004DA29 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D0269942C3FE5EE0004DA29 /* AppDelegate.swift */; };
+		9D0269972C3FE5EE0004DA29 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D0269962C3FE5EE0004DA29 /* SceneDelegate.swift */; };
+		9D0269992C3FE5EE0004DA29 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D0269982C3FE5EE0004DA29 /* ViewController.swift */; };
+		9D02699C2C3FE5EE0004DA29 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 9D02699B2C3FE5EE0004DA29 /* Base */; };
+		9D02699E2C3FE5EF0004DA29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D02699D2C3FE5EF0004DA29 /* Assets.xcassets */; };
+		9D0269A12C3FE5EF0004DA29 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 9D0269A02C3FE5EF0004DA29 /* Base */; };
+		9D0269AC2C3FE5EF0004DA29 /* Navigation_SDK_CodelabTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D0269AB2C3FE5EF0004DA29 /* Navigation_SDK_CodelabTests.swift */; };
+		9D0269B62C3FE5EF0004DA29 /* Navigation_SDK_CodelabUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D0269B52C3FE5EF0004DA29 /* Navigation_SDK_CodelabUITests.swift */; };
+		9D0269B82C3FE5EF0004DA29 /* Navigation_SDK_CodelabUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D0269B72C3FE5EF0004DA29 /* Navigation_SDK_CodelabUITestsLaunchTests.swift */; };
+		9D0269C52C4001570004DA29 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 9D0269C42C4001570004DA29 /* Podfile */; };
+		DBF7385A5E33C87FB9AFE69E /* libPods-Navigation SDK Codelab.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 90DBDD58EC6FFADFC51BB22E /* libPods-Navigation SDK Codelab.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9D0269A82C3FE5EF0004DA29 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D0269892C3FE5EE0004DA29 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D0269902C3FE5EE0004DA29;
+			remoteInfo = "Navigation SDK Codelab";
+		};
+		9D0269B22C3FE5EF0004DA29 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D0269892C3FE5EE0004DA29 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D0269902C3FE5EE0004DA29;
+			remoteInfo = "Navigation SDK Codelab";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		90DBDD58EC6FFADFC51BB22E /* libPods-Navigation SDK Codelab.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Navigation SDK Codelab.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D0269912C3FE5EE0004DA29 /* Navigation SDK Codelab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Navigation SDK Codelab.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D0269942C3FE5EE0004DA29 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9D0269962C3FE5EE0004DA29 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9D0269982C3FE5EE0004DA29 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9D02699B2C3FE5EE0004DA29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9D02699D2C3FE5EF0004DA29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9D0269A02C3FE5EF0004DA29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9D0269A22C3FE5EF0004DA29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D0269A72C3FE5EF0004DA29 /* Navigation SDK CodelabTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Navigation SDK CodelabTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D0269AB2C3FE5EF0004DA29 /* Navigation_SDK_CodelabTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigation_SDK_CodelabTests.swift; sourceTree = "<group>"; };
+		9D0269B12C3FE5EF0004DA29 /* Navigation SDK CodelabUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Navigation SDK CodelabUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D0269B52C3FE5EF0004DA29 /* Navigation_SDK_CodelabUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigation_SDK_CodelabUITests.swift; sourceTree = "<group>"; };
+		9D0269B72C3FE5EF0004DA29 /* Navigation_SDK_CodelabUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigation_SDK_CodelabUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9D0269C42C4001570004DA29 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BE49A22B83348104509C23A7 /* Pods-Navigation SDK Codelab.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Navigation SDK Codelab.debug.xcconfig"; path = "Target Support Files/Pods-Navigation SDK Codelab/Pods-Navigation SDK Codelab.debug.xcconfig"; sourceTree = "<group>"; };
+		C52ABC8FEDC5045E762754EE /* Pods-Navigation SDK Codelab.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Navigation SDK Codelab.release.xcconfig"; path = "Target Support Files/Pods-Navigation SDK Codelab/Pods-Navigation SDK Codelab.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9D02698E2C3FE5EE0004DA29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBF7385A5E33C87FB9AFE69E /* libPods-Navigation SDK Codelab.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D0269A42C3FE5EF0004DA29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D0269AE2C3FE5EF0004DA29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9D0269882C3FE5EE0004DA29 = {
+			isa = PBXGroup;
+			children = (
+				9D0269C42C4001570004DA29 /* Podfile */,
+				9D0269932C3FE5EE0004DA29 /* Navigation SDK Codelab */,
+				9D0269AA2C3FE5EF0004DA29 /* Navigation SDK CodelabTests */,
+				9D0269B42C3FE5EF0004DA29 /* Navigation SDK CodelabUITests */,
+				9D0269922C3FE5EE0004DA29 /* Products */,
+				FF9466B0EF75B2519E1650E6 /* Pods */,
+				DAE33502B7106E0D15B1E8FE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9D0269922C3FE5EE0004DA29 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9D0269912C3FE5EE0004DA29 /* Navigation SDK Codelab.app */,
+				9D0269A72C3FE5EF0004DA29 /* Navigation SDK CodelabTests.xctest */,
+				9D0269B12C3FE5EF0004DA29 /* Navigation SDK CodelabUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9D0269932C3FE5EE0004DA29 /* Navigation SDK Codelab */ = {
+			isa = PBXGroup;
+			children = (
+				9D0269942C3FE5EE0004DA29 /* AppDelegate.swift */,
+				9D0269962C3FE5EE0004DA29 /* SceneDelegate.swift */,
+				9D0269982C3FE5EE0004DA29 /* ViewController.swift */,
+				9D02699A2C3FE5EE0004DA29 /* Main.storyboard */,
+				9D02699D2C3FE5EF0004DA29 /* Assets.xcassets */,
+				9D02699F2C3FE5EF0004DA29 /* LaunchScreen.storyboard */,
+				9D0269A22C3FE5EF0004DA29 /* Info.plist */,
+			);
+			path = "Navigation SDK Codelab";
+			sourceTree = "<group>";
+		};
+		9D0269AA2C3FE5EF0004DA29 /* Navigation SDK CodelabTests */ = {
+			isa = PBXGroup;
+			children = (
+				9D0269AB2C3FE5EF0004DA29 /* Navigation_SDK_CodelabTests.swift */,
+			);
+			path = "Navigation SDK CodelabTests";
+			sourceTree = "<group>";
+		};
+		9D0269B42C3FE5EF0004DA29 /* Navigation SDK CodelabUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9D0269B52C3FE5EF0004DA29 /* Navigation_SDK_CodelabUITests.swift */,
+				9D0269B72C3FE5EF0004DA29 /* Navigation_SDK_CodelabUITestsLaunchTests.swift */,
+			);
+			path = "Navigation SDK CodelabUITests";
+			sourceTree = "<group>";
+		};
+		DAE33502B7106E0D15B1E8FE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				90DBDD58EC6FFADFC51BB22E /* libPods-Navigation SDK Codelab.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FF9466B0EF75B2519E1650E6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BE49A22B83348104509C23A7 /* Pods-Navigation SDK Codelab.debug.xcconfig */,
+				C52ABC8FEDC5045E762754EE /* Pods-Navigation SDK Codelab.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9D0269902C3FE5EE0004DA29 /* Navigation SDK Codelab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D0269BB2C3FE5EF0004DA29 /* Build configuration list for PBXNativeTarget "Navigation SDK Codelab" */;
+			buildPhases = (
+				9EC47B1E468F6A3D14CDF42F /* [CP] Check Pods Manifest.lock */,
+				9D02698D2C3FE5EE0004DA29 /* Sources */,
+				9D02698E2C3FE5EE0004DA29 /* Frameworks */,
+				9D02698F2C3FE5EE0004DA29 /* Resources */,
+				CFD277F61E1CDBF1646D992C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Navigation SDK Codelab";
+			productName = "Navigation SDK Codelab";
+			productReference = 9D0269912C3FE5EE0004DA29 /* Navigation SDK Codelab.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9D0269A62C3FE5EF0004DA29 /* Navigation SDK CodelabTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D0269BE2C3FE5EF0004DA29 /* Build configuration list for PBXNativeTarget "Navigation SDK CodelabTests" */;
+			buildPhases = (
+				9D0269A32C3FE5EF0004DA29 /* Sources */,
+				9D0269A42C3FE5EF0004DA29 /* Frameworks */,
+				9D0269A52C3FE5EF0004DA29 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9D0269A92C3FE5EF0004DA29 /* PBXTargetDependency */,
+			);
+			name = "Navigation SDK CodelabTests";
+			productName = "Navigation SDK CodelabTests";
+			productReference = 9D0269A72C3FE5EF0004DA29 /* Navigation SDK CodelabTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9D0269B02C3FE5EF0004DA29 /* Navigation SDK CodelabUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D0269C12C3FE5EF0004DA29 /* Build configuration list for PBXNativeTarget "Navigation SDK CodelabUITests" */;
+			buildPhases = (
+				9D0269AD2C3FE5EF0004DA29 /* Sources */,
+				9D0269AE2C3FE5EF0004DA29 /* Frameworks */,
+				9D0269AF2C3FE5EF0004DA29 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9D0269B32C3FE5EF0004DA29 /* PBXTargetDependency */,
+			);
+			name = "Navigation SDK CodelabUITests";
+			productName = "Navigation SDK CodelabUITests";
+			productReference = 9D0269B12C3FE5EF0004DA29 /* Navigation SDK CodelabUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9D0269892C3FE5EE0004DA29 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					9D0269902C3FE5EE0004DA29 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					9D0269A62C3FE5EF0004DA29 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 9D0269902C3FE5EE0004DA29;
+					};
+					9D0269B02C3FE5EF0004DA29 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 9D0269902C3FE5EE0004DA29;
+					};
+				};
+			};
+			buildConfigurationList = 9D02698C2C3FE5EE0004DA29 /* Build configuration list for PBXProject "Navigation SDK Codelab" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9D0269882C3FE5EE0004DA29;
+			productRefGroup = 9D0269922C3FE5EE0004DA29 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9D0269902C3FE5EE0004DA29 /* Navigation SDK Codelab */,
+				9D0269A62C3FE5EF0004DA29 /* Navigation SDK CodelabTests */,
+				9D0269B02C3FE5EF0004DA29 /* Navigation SDK CodelabUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9D02698F2C3FE5EE0004DA29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D02699E2C3FE5EF0004DA29 /* Assets.xcassets in Resources */,
+				9D0269A12C3FE5EF0004DA29 /* Base in Resources */,
+				9D0269C52C4001570004DA29 /* Podfile in Resources */,
+				9D02699C2C3FE5EE0004DA29 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D0269A52C3FE5EF0004DA29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D0269AF2C3FE5EF0004DA29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9EC47B1E468F6A3D14CDF42F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Navigation SDK Codelab-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CFD277F61E1CDBF1646D992C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Navigation SDK Codelab/Pods-Navigation SDK Codelab-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Navigation SDK Codelab/Pods-Navigation SDK Codelab-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Navigation SDK Codelab/Pods-Navigation SDK Codelab-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9D02698D2C3FE5EE0004DA29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D0269992C3FE5EE0004DA29 /* ViewController.swift in Sources */,
+				9D0269952C3FE5EE0004DA29 /* AppDelegate.swift in Sources */,
+				9D0269972C3FE5EE0004DA29 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D0269A32C3FE5EF0004DA29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D0269AC2C3FE5EF0004DA29 /* Navigation_SDK_CodelabTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D0269AD2C3FE5EF0004DA29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D0269B82C3FE5EF0004DA29 /* Navigation_SDK_CodelabUITestsLaunchTests.swift in Sources */,
+				9D0269B62C3FE5EF0004DA29 /* Navigation_SDK_CodelabUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9D0269A92C3FE5EF0004DA29 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9D0269902C3FE5EE0004DA29 /* Navigation SDK Codelab */;
+			targetProxy = 9D0269A82C3FE5EF0004DA29 /* PBXContainerItemProxy */;
+		};
+		9D0269B32C3FE5EF0004DA29 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9D0269902C3FE5EE0004DA29 /* Navigation SDK Codelab */;
+			targetProxy = 9D0269B22C3FE5EF0004DA29 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9D02699A2C3FE5EE0004DA29 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D02699B2C3FE5EE0004DA29 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9D02699F2C3FE5EF0004DA29 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D0269A02C3FE5EF0004DA29 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9D0269B92C3FE5EF0004DA29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9D0269BA2C3FE5EF0004DA29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9D0269BC2C3FE5EF0004DA29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE49A22B83348104509C23A7 /* Pods-Navigation SDK Codelab.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Navigation SDK Codelab/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.navsdkcodelab.Navigation-SDK-Codelab";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9D0269BD2C3FE5EF0004DA29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C52ABC8FEDC5045E762754EE /* Pods-Navigation SDK Codelab.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Navigation SDK Codelab/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.navsdkcodelab.Navigation-SDK-Codelab";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9D0269BF2C3FE5EF0004DA29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.navsdkcodelab.Navigation-SDK-CodelabTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Navigation SDK Codelab.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Navigation SDK Codelab";
+			};
+			name = Debug;
+		};
+		9D0269C02C3FE5EF0004DA29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.navsdkcodelab.Navigation-SDK-CodelabTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Navigation SDK Codelab.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Navigation SDK Codelab";
+			};
+			name = Release;
+		};
+		9D0269C22C3FE5EF0004DA29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.navsdkcodelab.Navigation-SDK-CodelabUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Navigation SDK Codelab";
+			};
+			name = Debug;
+		};
+		9D0269C32C3FE5EF0004DA29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.navsdkcodelab.Navigation-SDK-CodelabUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Navigation SDK Codelab";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9D02698C2C3FE5EE0004DA29 /* Build configuration list for PBXProject "Navigation SDK Codelab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D0269B92C3FE5EF0004DA29 /* Debug */,
+				9D0269BA2C3FE5EF0004DA29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D0269BB2C3FE5EF0004DA29 /* Build configuration list for PBXNativeTarget "Navigation SDK Codelab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D0269BC2C3FE5EF0004DA29 /* Debug */,
+				9D0269BD2C3FE5EF0004DA29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D0269BE2C3FE5EF0004DA29 /* Build configuration list for PBXNativeTarget "Navigation SDK CodelabTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D0269BF2C3FE5EF0004DA29 /* Debug */,
+				9D0269C02C3FE5EF0004DA29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D0269C12C3FE5EF0004DA29 /* Build configuration list for PBXNativeTarget "Navigation SDK CodelabUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D0269C22C3FE5EF0004DA29 /* Debug */,
+				9D0269C32C3FE5EF0004DA29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9D0269892C3FE5EE0004DA29 /* Project object */;
+}

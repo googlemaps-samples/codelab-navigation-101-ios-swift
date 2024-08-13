@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-Navigation SDK Codelab/Pods-Navigation SDK Codelab-resources.sh
+${PODS_CONFIGURATION_BUILD_DIR}/GoogleMaps/GoogleMapsResources.bundle
+${PODS_CONFIGURATION_BUILD_DIR}/GoogleNavigation/GoogleNavigationResources.bundle

@@ -1,0 +1,881 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		760FE2DAE82E5ED654AA6D44B9FBF990 /* GoogleNavigation */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = B74D9E17F41DB3C1CC6AE1A7E37195C9 /* Build configuration list for PBXAggregateTarget "GoogleNavigation" */;
+			buildPhases = (
+				648E6E459E588E67248E7FE0BF67820B /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+				49904BE45BAAA57AC420D47E33538302 /* PBXTargetDependency */,
+				F2D23E99B983E1E000194BFCE8DA3EE9 /* PBXTargetDependency */,
+			);
+			name = GoogleNavigation;
+		};
+		E5B4BBC6DD552AC8943C7E22772FC1D3 /* GoogleMaps */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 47C5605859EECC4DAA8398F8266E85C4 /* Build configuration list for PBXAggregateTarget "GoogleMaps" */;
+			buildPhases = (
+				9801DC96C44A55EEBAB39A01F1BB925C /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+				1108A6B20591DDF2EB7834CDB7B3AC29 /* PBXTargetDependency */,
+			);
+			name = GoogleMaps;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		53472C461641A5303743536C251ED00D /* Pods-Navigation SDK Codelab-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 61A9B42C029A1E087F9DDA534A83B355 /* Pods-Navigation SDK Codelab-dummy.m */; };
+		8F03E44A1C47D728EFFAA0603F7B54EB /* GoogleNavigation.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 97A2B0FAFD06A536B52DFED1E8786776 /* GoogleNavigation.bundle */; };
+		B632C1890E12CA4BED58449A7A2E1B5C /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 678BB3B69F62CB0520300593D1EFCE6F /* GoogleMaps.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1FFF6753A96666B41247D1DF18AAD395 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B026DDDF280F148DD87281679B51154;
+			remoteInfo = "GoogleMaps-GoogleMapsResources";
+		};
+		327AD92E345BDB1C6B4F29411DC66001 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 760FE2DAE82E5ED654AA6D44B9FBF990;
+			remoteInfo = GoogleNavigation;
+		};
+		845CC2A7875D5F8E6D9D0E08615A5C77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E5B4BBC6DD552AC8943C7E22772FC1D3;
+			remoteInfo = GoogleMaps;
+		};
+		CE8DBB02A299617055CF8A6973DAFD83 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E5B4BBC6DD552AC8943C7E22772FC1D3;
+			remoteInfo = GoogleMaps;
+		};
+		F7C7D18A9A1E38102CF02C6E4C70F4E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FEE0B59397043CD8C00E81A826F738F3;
+			remoteInfo = "GoogleNavigation-GoogleNavigationResources";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A5FA9F77493AD54ECBA648780EFAE50 /* Pods-Navigation SDK Codelab-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Navigation SDK Codelab-resources.sh"; sourceTree = "<group>"; };
+		118E7481EFBEE01B50175D82AE8D9AEA /* Pods-Navigation SDK Codelab.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Navigation SDK Codelab.debug.xcconfig"; sourceTree = "<group>"; };
+		1292E4FE7C123AA1A8D372C52E17DB6E /* GoogleMaps.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleMaps.release.xcconfig; sourceTree = "<group>"; };
+		1460E4570D0A91E397C4DF05777C3D64 /* Pods-Navigation SDK Codelab-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Navigation SDK Codelab-acknowledgements.markdown"; sourceTree = "<group>"; };
+		17941136B06E0A13FE667E132A290AD0 /* GoogleNavigation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleNavigation.release.xcconfig; sourceTree = "<group>"; };
+		1F181C91AAA0DB2253B2952C0E6C2F59 /* GoogleMaps.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleMaps.debug.xcconfig; sourceTree = "<group>"; };
+		21BC9DE5EE18F27517C52ABD3FBF38ED /* GoogleMaps-GoogleMapsResources */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "GoogleMaps-GoogleMapsResources"; path = GoogleMapsResources.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E175F5CDD4F97DB3BD033BF15923327 /* GMSEmpty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GMSEmpty.h; path = Base/Sources/GMSEmpty.h; sourceTree = "<group>"; };
+		4EF4D9DB3F95006A8DD4B90C3F3F2932 /* Pods-Navigation SDK Codelab.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Navigation SDK Codelab.release.xcconfig"; sourceTree = "<group>"; };
+		61A9B42C029A1E087F9DDA534A83B355 /* Pods-Navigation SDK Codelab-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Navigation SDK Codelab-dummy.m"; sourceTree = "<group>"; };
+		670F860A14C03B1CE6771FD8D26555B8 /* GoogleNavigation-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "GoogleNavigation-xcframeworks.sh"; sourceTree = "<group>"; };
+		678BB3B69F62CB0520300593D1EFCE6F /* GoogleMaps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = Maps/Resources/GoogleMapsResources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		6E9FF5A937CFA52B19DF85BA4F0C636F /* ResourceBundle-GoogleMapsResources-GoogleMaps-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-GoogleMapsResources-GoogleMaps-Info.plist"; sourceTree = "<group>"; };
+		6EB87F0292B4BFCE00E7492B3CA1D906 /* GoogleMaps-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "GoogleMaps-xcframeworks.sh"; sourceTree = "<group>"; };
+		80C625F5DDC71C01CFC293AE8AD656AA /* GoogleNavigation.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = GoogleNavigation.xcframework; path = Frameworks/GoogleNavigation.xcframework; sourceTree = "<group>"; };
+		81D2293950854517D8557B3051E6C193 /* GMSEmpty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GMSEmpty.h; path = Maps/Sources/GMSEmpty.h; sourceTree = "<group>"; };
+		83B18EF879489BFABB1258178A2FD5D6 /* GoogleNavigation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleNavigation.debug.xcconfig; sourceTree = "<group>"; };
+		97A2B0FAFD06A536B52DFED1E8786776 /* GoogleNavigation.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleNavigation.bundle; path = Resources/GoogleNavigationResources/GoogleNavigation.bundle; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AEAF64A568DADDC95671F5600F915145 /* GMSEmpty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GMSEmpty.h; path = Sources/GMSEmpty.h; sourceTree = "<group>"; };
+		B0C13B2894E7D3ADFDACBD31EB08B509 /* GoogleMapsCore.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = GoogleMapsCore.xcframework; path = Maps/Frameworks/GoogleMapsCore.xcframework; sourceTree = "<group>"; };
+		C0F1D3CD419D856B1C309E1EDF2CD11E /* GoogleMapsBase.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = GoogleMapsBase.xcframework; path = Base/Frameworks/GoogleMapsBase.xcframework; sourceTree = "<group>"; };
+		D194BA20F0AA1206D75831EF7C969844 /* ResourceBundle-GoogleNavigationResources-GoogleNavigation-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-GoogleNavigationResources-GoogleNavigation-Info.plist"; sourceTree = "<group>"; };
+		D9554BCF432D425F01112FC18E4771C4 /* GoogleMaps.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = GoogleMaps.xcframework; path = Maps/Frameworks/GoogleMaps.xcframework; sourceTree = "<group>"; };
+		DFDD3AFB3550067F448B6D3067EC8207 /* GoogleNavigation-GoogleNavigationResources */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "GoogleNavigation-GoogleNavigationResources"; path = GoogleNavigationResources.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7128867C6A663400D46E2C8FE9AFF04 /* Pods-Navigation SDK Codelab */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-Navigation SDK Codelab"; path = "libPods-Navigation SDK Codelab.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC24C35266A411DA1442EFD83EEBEF69 /* Pods-Navigation SDK Codelab-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Navigation SDK Codelab-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		543879A80FB56D5D26841EABE9ACEFAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BEB17E845799842E0BA00CF3F572422 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4F64F4E72D28D9ECD9FC29B97176D54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		041E12341D9AEE3B2C4105CD96F6C556 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5E166ADD0F9F46A3A303D90791E8AA1F /* GoogleMaps */,
+				9147C0222A7767EDCBE33EA7BA7ABE7F /* GoogleNavigation */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		139E56F94ACA17B6E6FD88ECEAFD2CBC /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				2E175F5CDD4F97DB3BD033BF15923327 /* GMSEmpty.h */,
+				97581B46D2D3CED284599DA90BC8307B /* Frameworks */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		1AC2D0C711902FBBBE086B85F786F7F6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6EB87F0292B4BFCE00E7492B3CA1D906 /* GoogleMaps-xcframeworks.sh */,
+				1F181C91AAA0DB2253B2952C0E6C2F59 /* GoogleMaps.debug.xcconfig */,
+				1292E4FE7C123AA1A8D372C52E17DB6E /* GoogleMaps.release.xcconfig */,
+				6E9FF5A937CFA52B19DF85BA4F0C636F /* ResourceBundle-GoogleMapsResources-GoogleMaps-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GoogleMaps";
+			sourceTree = "<group>";
+		};
+		1CB342729DADB639DCD119D6CCDDD130 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				97A2B0FAFD06A536B52DFED1E8786776 /* GoogleNavigation.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		1E1D87D26A6274C1D48F60F34DB1D744 /* Pods-Navigation SDK Codelab */ = {
+			isa = PBXGroup;
+			children = (
+				1460E4570D0A91E397C4DF05777C3D64 /* Pods-Navigation SDK Codelab-acknowledgements.markdown */,
+				FC24C35266A411DA1442EFD83EEBEF69 /* Pods-Navigation SDK Codelab-acknowledgements.plist */,
+				61A9B42C029A1E087F9DDA534A83B355 /* Pods-Navigation SDK Codelab-dummy.m */,
+				0A5FA9F77493AD54ECBA648780EFAE50 /* Pods-Navigation SDK Codelab-resources.sh */,
+				118E7481EFBEE01B50175D82AE8D9AEA /* Pods-Navigation SDK Codelab.debug.xcconfig */,
+				4EF4D9DB3F95006A8DD4B90C3F3F2932 /* Pods-Navigation SDK Codelab.release.xcconfig */,
+			);
+			name = "Pods-Navigation SDK Codelab";
+			path = "Target Support Files/Pods-Navigation SDK Codelab";
+			sourceTree = "<group>";
+		};
+		519A26A5691322C519BA1979D434EFC1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				80C625F5DDC71C01CFC293AE8AD656AA /* GoogleNavigation.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5E166ADD0F9F46A3A303D90791E8AA1F /* GoogleMaps */ = {
+			isa = PBXGroup;
+			children = (
+				139E56F94ACA17B6E6FD88ECEAFD2CBC /* Base */,
+				A40C95F34D5F15D0158BD540BAAD2670 /* Maps */,
+				1AC2D0C711902FBBBE086B85F786F7F6 /* Support Files */,
+			);
+			name = GoogleMaps;
+			path = GoogleMaps;
+			sourceTree = "<group>";
+		};
+		6069697952E4DC208C1252F3C05279C0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D9554BCF432D425F01112FC18E4771C4 /* GoogleMaps.xcframework */,
+				B0C13B2894E7D3ADFDACBD31EB08B509 /* GoogleMapsCore.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		89298093503CC88179315999D4C3130D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				678BB3B69F62CB0520300593D1EFCE6F /* GoogleMaps.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		89D2EBD574D6BD9D8A40AF81B71D5F9E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1E1D87D26A6274C1D48F60F34DB1D744 /* Pods-Navigation SDK Codelab */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		9147C0222A7767EDCBE33EA7BA7ABE7F /* GoogleNavigation */ = {
+			isa = PBXGroup;
+			children = (
+				AEAF64A568DADDC95671F5600F915145 /* GMSEmpty.h */,
+				519A26A5691322C519BA1979D434EFC1 /* Frameworks */,
+				1CB342729DADB639DCD119D6CCDDD130 /* Resources */,
+				B1723C00F9C4DD7C265701B8DB330500 /* Support Files */,
+			);
+			name = GoogleNavigation;
+			path = GoogleNavigation;
+			sourceTree = "<group>";
+		};
+		97581B46D2D3CED284599DA90BC8307B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0F1D3CD419D856B1C309E1EDF2CD11E /* GoogleMapsBase.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A40C95F34D5F15D0158BD540BAAD2670 /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				81D2293950854517D8557B3051E6C193 /* GMSEmpty.h */,
+				6069697952E4DC208C1252F3C05279C0 /* Frameworks */,
+				89298093503CC88179315999D4C3130D /* Resources */,
+			);
+			name = Maps;
+			sourceTree = "<group>";
+		};
+		B1723C00F9C4DD7C265701B8DB330500 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				670F860A14C03B1CE6771FD8D26555B8 /* GoogleNavigation-xcframeworks.sh */,
+				83B18EF879489BFABB1258178A2FD5D6 /* GoogleNavigation.debug.xcconfig */,
+				17941136B06E0A13FE667E132A290AD0 /* GoogleNavigation.release.xcconfig */,
+				D194BA20F0AA1206D75831EF7C969844 /* ResourceBundle-GoogleNavigationResources-GoogleNavigation-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GoogleNavigation";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				041E12341D9AEE3B2C4105CD96F6C556 /* Pods */,
+				D07DA150E26BAA70162C424B594DB055 /* Products */,
+				89D2EBD574D6BD9D8A40AF81B71D5F9E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D07DA150E26BAA70162C424B594DB055 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				21BC9DE5EE18F27517C52ABD3FBF38ED /* GoogleMaps-GoogleMapsResources */,
+				DFDD3AFB3550067F448B6D3067EC8207 /* GoogleNavigation-GoogleNavigationResources */,
+				F7128867C6A663400D46E2C8FE9AFF04 /* Pods-Navigation SDK Codelab */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		828B9792E05C92C0F04EC1E0FF4025CF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		78EEA531D7E3AF6FA386310B2A59DEEF /* Pods-Navigation SDK Codelab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48538FE01B8CE3DD5CEF1427E3FB4A3B /* Build configuration list for PBXNativeTarget "Pods-Navigation SDK Codelab" */;
+			buildPhases = (
+				828B9792E05C92C0F04EC1E0FF4025CF /* Headers */,
+				D1CE7307500B401700D8F1B5A4568A80 /* Sources */,
+				7BEB17E845799842E0BA00CF3F572422 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				215CBA636AFDADE68B5034F9CD701375 /* PBXTargetDependency */,
+				F4330CA2F2523981BC650A312F866152 /* PBXTargetDependency */,
+			);
+			name = "Pods-Navigation SDK Codelab";
+			productName = "Pods-Navigation SDK Codelab";
+			productReference = F7128867C6A663400D46E2C8FE9AFF04 /* Pods-Navigation SDK Codelab */;
+			productType = "com.apple.product-type.library.static";
+		};
+		7B026DDDF280F148DD87281679B51154 /* GoogleMaps-GoogleMapsResources */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17BC102638B69DE5006E9DFC9A4AA1B7 /* Build configuration list for PBXNativeTarget "GoogleMaps-GoogleMapsResources" */;
+			buildPhases = (
+				BA8DA9019D9400CF9F2A5C6DA6FE58DA /* Sources */,
+				543879A80FB56D5D26841EABE9ACEFAC /* Frameworks */,
+				C2E9518276069392F4AB48A05F551A74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GoogleMaps-GoogleMapsResources";
+			productName = GoogleMapsResources;
+			productReference = 21BC9DE5EE18F27517C52ABD3FBF38ED /* GoogleMaps-GoogleMapsResources */;
+			productType = "com.apple.product-type.bundle";
+		};
+		FEE0B59397043CD8C00E81A826F738F3 /* GoogleNavigation-GoogleNavigationResources */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56540BBC6FF7396E4B22771DC5F8B0C3 /* Build configuration list for PBXNativeTarget "GoogleNavigation-GoogleNavigationResources" */;
+			buildPhases = (
+				48FC7CD927DF88AA1AA1339E391C11B1 /* Sources */,
+				B4F64F4E72D28D9ECD9FC29B97176D54 /* Frameworks */,
+				24EB13F3B513169375ED89F56DA6B923 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GoogleNavigation-GoogleNavigationResources";
+			productName = GoogleNavigationResources;
+			productReference = DFDD3AFB3550067F448B6D3067EC8207 /* GoogleNavigation-GoogleNavigationResources */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = D07DA150E26BAA70162C424B594DB055 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E5B4BBC6DD552AC8943C7E22772FC1D3 /* GoogleMaps */,
+				7B026DDDF280F148DD87281679B51154 /* GoogleMaps-GoogleMapsResources */,
+				760FE2DAE82E5ED654AA6D44B9FBF990 /* GoogleNavigation */,
+				FEE0B59397043CD8C00E81A826F738F3 /* GoogleNavigation-GoogleNavigationResources */,
+				78EEA531D7E3AF6FA386310B2A59DEEF /* Pods-Navigation SDK Codelab */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		24EB13F3B513169375ED89F56DA6B923 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F03E44A1C47D728EFFAA0603F7B54EB /* GoogleNavigation.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2E9518276069392F4AB48A05F551A74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B632C1890E12CA4BED58449A7A2E1B5C /* GoogleMaps.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		648E6E459E588E67248E7FE0BF67820B /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/GoogleNavigation/GoogleNavigation-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/GoogleNavigation/GoogleNavigation-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/GoogleNavigation/GoogleNavigation-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9801DC96C44A55EEBAB39A01F1BB925C /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/GoogleMaps/GoogleMaps-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/GoogleMaps/GoogleMaps-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/GoogleMaps/GoogleMaps-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		48FC7CD927DF88AA1AA1339E391C11B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA8DA9019D9400CF9F2A5C6DA6FE58DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1CE7307500B401700D8F1B5A4568A80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53472C461641A5303743536C251ED00D /* Pods-Navigation SDK Codelab-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1108A6B20591DDF2EB7834CDB7B3AC29 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "GoogleMaps-GoogleMapsResources";
+			target = 7B026DDDF280F148DD87281679B51154 /* GoogleMaps-GoogleMapsResources */;
+			targetProxy = 1FFF6753A96666B41247D1DF18AAD395 /* PBXContainerItemProxy */;
+		};
+		215CBA636AFDADE68B5034F9CD701375 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleMaps;
+			target = E5B4BBC6DD552AC8943C7E22772FC1D3 /* GoogleMaps */;
+			targetProxy = 845CC2A7875D5F8E6D9D0E08615A5C77 /* PBXContainerItemProxy */;
+		};
+		49904BE45BAAA57AC420D47E33538302 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleMaps;
+			target = E5B4BBC6DD552AC8943C7E22772FC1D3 /* GoogleMaps */;
+			targetProxy = CE8DBB02A299617055CF8A6973DAFD83 /* PBXContainerItemProxy */;
+		};
+		F2D23E99B983E1E000194BFCE8DA3EE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "GoogleNavigation-GoogleNavigationResources";
+			target = FEE0B59397043CD8C00E81A826F738F3 /* GoogleNavigation-GoogleNavigationResources */;
+			targetProxy = F7C7D18A9A1E38102CF02C6E4C70F4E1 /* PBXContainerItemProxy */;
+		};
+		F4330CA2F2523981BC650A312F866152 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleNavigation;
+			target = 760FE2DAE82E5ED654AA6D44B9FBF990 /* GoogleNavigation */;
+			targetProxy = 327AD92E345BDB1C6B4F29411DC66001 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		02F87E12A009BCCEB5934CF7E2D15FDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 118E7481EFBEE01B50175D82AE8D9AEA /* Pods-Navigation SDK Codelab.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		05916A0CE1BC21DA1A6F765EC424392A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F181C91AAA0DB2253B2952C0E6C2F59 /* GoogleMaps.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3D88282E73AEFBBCA92CD4C712FD225F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1292E4FE7C123AA1A8D372C52E17DB6E /* GoogleMaps.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		41669AAB7622706666AB09CD7D352824 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1292E4FE7C123AA1A8D372C52E17DB6E /* GoogleMaps.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/GoogleMaps";
+				IBSC_MODULE = GoogleMaps;
+				INFOPLIST_FILE = "Target Support Files/GoogleMaps/ResourceBundle-GoogleMapsResources-GoogleMaps-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				PRODUCT_NAME = GoogleMapsResources;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		42FC558C78C6A8064B520C5AC512D6D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17941136B06E0A13FE667E132A290AD0 /* GoogleNavigation.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		90D4D09BCB6A4660E43ACBE9ECB6FE9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9553C89E183877A5CB2F3C6801BEC129 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		959F4CE3FB0B6FFA0A0FBCF6114FA1EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83B18EF879489BFABB1258178A2FD5D6 /* GoogleNavigation.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C0BEE4FB41D938BEE71451A33CF0B591 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83B18EF879489BFABB1258178A2FD5D6 /* GoogleNavigation.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/GoogleNavigation";
+				IBSC_MODULE = GoogleNavigation;
+				INFOPLIST_FILE = "Target Support Files/GoogleNavigation/ResourceBundle-GoogleNavigationResources-GoogleNavigation-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				PRODUCT_NAME = GoogleNavigationResources;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		C64792300FA41029B75B78A70140C2DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17941136B06E0A13FE667E132A290AD0 /* GoogleNavigation.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/GoogleNavigation";
+				IBSC_MODULE = GoogleNavigation;
+				INFOPLIST_FILE = "Target Support Files/GoogleNavigation/ResourceBundle-GoogleNavigationResources-GoogleNavigation-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				PRODUCT_NAME = GoogleNavigationResources;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		E4892EFFA331239BFD0442036CB7BD58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EF4D9DB3F95006A8DD4B90C3F3F2932 /* Pods-Navigation SDK Codelab.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F01B93A2D2B63D280904290E7C556DC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F181C91AAA0DB2253B2952C0E6C2F59 /* GoogleMaps.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/GoogleMaps";
+				IBSC_MODULE = GoogleMaps;
+				INFOPLIST_FILE = "Target Support Files/GoogleMaps/ResourceBundle-GoogleMapsResources-GoogleMaps-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				PRODUCT_NAME = GoogleMapsResources;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17BC102638B69DE5006E9DFC9A4AA1B7 /* Build configuration list for PBXNativeTarget "GoogleMaps-GoogleMapsResources" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F01B93A2D2B63D280904290E7C556DC1 /* Debug */,
+				41669AAB7622706666AB09CD7D352824 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47C5605859EECC4DAA8398F8266E85C4 /* Build configuration list for PBXAggregateTarget "GoogleMaps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05916A0CE1BC21DA1A6F765EC424392A /* Debug */,
+				3D88282E73AEFBBCA92CD4C712FD225F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90D4D09BCB6A4660E43ACBE9ECB6FE9A /* Debug */,
+				9553C89E183877A5CB2F3C6801BEC129 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48538FE01B8CE3DD5CEF1427E3FB4A3B /* Build configuration list for PBXNativeTarget "Pods-Navigation SDK Codelab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02F87E12A009BCCEB5934CF7E2D15FDE /* Debug */,
+				E4892EFFA331239BFD0442036CB7BD58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56540BBC6FF7396E4B22771DC5F8B0C3 /* Build configuration list for PBXNativeTarget "GoogleNavigation-GoogleNavigationResources" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0BEE4FB41D938BEE71451A33CF0B591 /* Debug */,
+				C64792300FA41029B75B78A70140C2DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B74D9E17F41DB3C1CC6AE1A7E37195C9 /* Build configuration list for PBXAggregateTarget "GoogleNavigation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				959F4CE3FB0B6FFA0A0FBCF6114FA1EB /* Debug */,
+				42FC558C78C6A8064B520C5AC512D6D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

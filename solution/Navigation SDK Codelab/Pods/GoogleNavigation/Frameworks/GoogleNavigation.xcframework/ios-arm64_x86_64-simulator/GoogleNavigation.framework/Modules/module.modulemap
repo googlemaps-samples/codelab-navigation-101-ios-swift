@@ -1,0 +1,36 @@
+framework module GoogleNavigation {
+  umbrella header "GoogleNavigation.h"
+  
+
+  export *
+  module * { export * }
+  link "dl"
+  link "m"
+  link "resolv"
+  link "xml2"
+  link "z"
+  link framework "AVFoundation"
+  link framework "AudioToolbox"
+  link framework "Contacts"
+  link framework "CoreBluetooth"
+  link framework "CoreData"
+  link framework "CoreFoundation"
+  link framework "CoreGraphics"
+  link framework "CoreImage"
+  link framework "CoreLocation"
+  link framework "CoreMotion"
+  link framework "CoreTelephony"
+  link framework "CoreText"
+  link framework "CoreVideo"
+  link framework "Foundation"
+  link framework "GLKit"
+  link framework "ImageIO"
+  link framework "Metal"
+  link framework "OSLog"
+  link framework "OpenGLES"
+  link framework "QuartzCore"
+  link framework "Security"
+  link framework "SystemConfiguration"
+  link framework "UIKit"
+  link framework "WebKit"
+}

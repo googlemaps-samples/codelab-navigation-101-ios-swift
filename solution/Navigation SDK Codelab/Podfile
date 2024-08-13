@@ -1,0 +1,8 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+platform :ios, '15.0'
+
+target 'Navigation SDK Codelab' do
+  pod 'GoogleNavigation', '9.0.0'
+end
+
