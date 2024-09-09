@@ -15,6 +15,7 @@
 #import <GoogleMapsBase/GoogleMapsBase.h>
 #endif
 
+@class GMSNavigationTermsAndConditionsOptions;
 @class GMSNavigationTermsDialogUIParams;
 @class GMSNavigationSession;
 
@@ -43,8 +44,26 @@ typedef void (^GMSTermsResponseCallback)(BOOL termsAccepted);
  */
 + (BOOL)areTermsAndConditionsAccepted;
 
+/**
+ * Shows a modal dialog box if the app user has not yet accepted the Navigation SDK terms and
+ * conditions. The callback is sent on the main queue with the user's response.
+ *
+ * If the user has already accepted the terms and conditions, no dialog appears, and the callback
+ * contains @c termsAccepted = @c YES.
+ *
+ * @param options The @c GMSNavigationTermsAndConditionsOptions object which modifies the appearance
+ *    of the terms and conditions dialog. See @ GMSNavigationTermsAndConditionsOptions for more
+ *    information.
+ * @param callback Block sent on the main queue with the user's response.
+ */
++ (void)showTermsAndConditionsDialogIfNeededWithOptions:
+            (GMSNavigationTermsAndConditionsOptions *)options
+                                               callback:(GMSTermsResponseCallback)callback;
 
 /**
+ * Deprecated. Use @c GMSNavigationTermsAndConditionsOptions API with @c
+ * showTermsAndConditionsDialogIfNeededWithOptions:callback: instead.
+ *
  * Indicates if |showTermsAndConditionsDialogIfNeededWithCompanyName:callback:| should
  * display the driver awareness disclaimer only. The default is @c NO and the disclaimer is
  * shown in addition to the default terms and services provided with the Navigation SDK.
@@ -56,9 +75,13 @@ typedef void (^GMSTermsResponseCallback)(BOOL termsAccepted);
  * This property must be set or read from the main thread.
  */
 @property(class, nonatomic) BOOL shouldOnlyShowDriverAwarenesssDisclaimer
+    __GMS_AVAILABLE_BUT_DEPRECATED_MSG(
+        "Use the GMSNavigationTermsAndConditionsOptions API instead.")
         ;
 
 /**
+ * Deprecated. Use @c showTermsAndConditionsDialogIfNeededWithOptions:callback: instead.
+ *
  * Shows a modal dialog box if the app user has not yet accepted the Navigation SDK terms and
  * conditions. The callback is sent on the main queue with the user's response.
  *
@@ -86,9 +109,13 @@ typedef void (^GMSTermsResponseCallback)(BOOL termsAccepted);
                                              UIParams:(nullable GMSNavigationTermsDialogUIParams *)
                                                           UIParams
                                              callback:(GMSTermsResponseCallback)callback
+    __GMS_AVAILABLE_BUT_DEPRECATED_MSG(
+        "Use showTermsAndConditionsDialogWithOptions:callback: instead.")
         ;
 
 /**
+ * Deprecated. Use @c showTermsAndConditionsDialogIfNeededWithOptions:callback: instead.
+ *
  * Shows the terms and conditions dialog using the default look and feel.
  *
  * See +showTermsAndConditionsDialogIfNeededWithTitle:companyName:UIParams:callback: for details,
@@ -97,9 +124,13 @@ typedef void (^GMSTermsResponseCallback)(BOOL termsAccepted);
 + (void)showTermsAndConditionsDialogIfNeededWithTitle:(nullable NSString *)title
                                           companyName:(NSString *)companyName
                                              callback:(GMSTermsResponseCallback)callback
+    __GMS_AVAILABLE_BUT_DEPRECATED_MSG(
+        "Use showTermsAndConditionsDialogWithOptions:callback: instead.")
         ;
 
 /**
+ * Deprecated. Use @c showTermsAndConditionsDialogIfNeededWithOptions:callback: instead.
+ *
  * Shows the terms and conditions dialog using the default title and look and feel.
  *
  * See +showTermsAndConditionsDialogIfNeededWithTitle:companyName:UIParams:callback: for details,
@@ -107,6 +138,8 @@ typedef void (^GMSTermsResponseCallback)(BOOL termsAccepted);
  */
 + (void)showTermsAndConditionsDialogIfNeededWithCompanyName:(NSString *)companyName
                                                    callback:(GMSTermsResponseCallback)callback
+    __GMS_AVAILABLE_BUT_DEPRECATED_MSG(
+        "Use showTermsAndConditionsDialogWithOptions:callback: instead.")
         ;
 
 /**

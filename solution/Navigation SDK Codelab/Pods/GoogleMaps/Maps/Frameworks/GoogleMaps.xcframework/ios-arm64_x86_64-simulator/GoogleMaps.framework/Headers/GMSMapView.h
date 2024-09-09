@@ -405,9 +405,9 @@ typedef NS_ENUM(NSUInteger, GMSMapViewPaddingAdjustmentBehavior) {
  */
 @property(nonatomic, nullable) GMSMapStyle *mapStyle;
 
-/* Change the map to desired [UIUserInterfaceStyle]
- * (https://developer.apple.com/documentation/uikit/uiuserinterfacestyle?language=objc). This
- * overrides the default UIKit behavior and defaults to UIUserInterfaceStyleLight to ensure
+/* Change the map to desired
+ * [UIUserInterfaceStyle](https://developer.apple.com/documentation/uikit/uiuserinterfacestyle?language=objc).
+ * This overrides the default UIKit behavior and defaults to UIUserInterfaceStyleLight to ensure
  * backwards compatibility. This affects the color scheme of Normal and Terrain map types.
  */
 @property(nonatomic) UIUserInterfaceStyle overrideUserInterfaceStyle;
@@ -585,8 +585,8 @@ typedef NS_ENUM(NSUInteger, GMSMapViewPaddingAdjustmentBehavior) {
  * Console.
  *
  * If a layer of the specified type does not exist on this map, or if data-driven styling is not
- * enabled, or if the Metal rendering framework is not used, the resulting layer's isAvailable will
- * be @c NO, and will not respond to any calls.
+ * enabled, or if the Metal rendering framework is not used, the resulting layer's `isAvailable`
+ * will be @c NO, and will not respond to any calls.
  *
  * Requires the Metal renderer. Learn how to enable Metal at
  * https://developers.google.com/maps/documentation/ios-sdk/config#use-metal
@@ -599,7 +599,7 @@ typedef NS_ENUM(NSUInteger, GMSMapViewPaddingAdjustmentBehavior) {
  * Cloud Console.
  *
  * If a dataset of the specified ID does not exist on this map, or if data-driven styling is not
- * enabled, the resulting layer's isAvailable will be @c NO, and will not respond to any calls.
+ * enabled, the resulting layer's `isAvailable` will be @c NO, and will not respond to any calls.
  */
 - (GMSDatasetFeatureLayer *)datasetFeatureLayerOfDatasetID:(NSString *)datasetID
     NS_SWIFT_NAME(datasetFeatureLayer(of:));

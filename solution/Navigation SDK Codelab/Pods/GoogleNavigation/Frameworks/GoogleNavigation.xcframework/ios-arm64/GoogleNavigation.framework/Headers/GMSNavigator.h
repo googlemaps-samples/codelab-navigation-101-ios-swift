@@ -240,8 +240,9 @@ typedef void (^GMSNavigationTransactionIDErrorHandler)(NSError *error);
                callback:(GMSRouteStatusCallback)callback;
 
 /**
- * Returns route information based on the routing strategy: default best or shorter route. Returns a
- * @c nil value if the project lacks permission to call this API.
+ * Returns route information based on the routing strategy: default best or shorter route. This
+ * method is only available to Mobility Services customers who are billed by Google on a
+ * per-transaction basis. Returns a `nil` value if the project lacks permission to call this API.
  *
  * @param destination The destination waypoint.
  * @param routingOptions The options used to fetch the route info. The routing strategy and
@@ -391,10 +392,12 @@ typedef void (^GMSNavigationTransactionIDErrorHandler)(NSError *error);
 @property(nonatomic, readonly, nullable) NSArray<GMSRouteLeg *> *routeLegs;
 
 /**
- * The path the device traveled since the last time guidanceActive was set to YES. This path is
- * empty if guidance has never started. The path consists of the road-snapped location as returned
- * by @c GMSRoadSnappedLocationProvider but simplified to remove redundant points. For example
- * turning consecutive collinear points into a single line segment.
+ * The path that the user has traveled in the most recent guidance session, defined as the last time
+ * guidanceActive was set to YES. The path consists of road-snapped locations returned by the
+ * @c GMSRoadSnappedLocationProvider and simplified to produce line segments. Note: The system polls
+ * the client for GPS signals to obtain location data. Poor GPS signal can result in further
+ * interpolation, which might produce less precise routes. This path is empty if guidance has never
+ * started.
  */
 @property(nonatomic, readonly) GMSPath *traveledPath;
 
@@ -451,7 +454,9 @@ typedef void (^GMSNavigationTransactionIDErrorHandler)(NSError *error);
 /**
  * Sets and logs to the server the ongoing transaction IDs that apply to the navigation events
  * during the current navigation session. Transaction IDs will be cleared at the end of the
- * navigation session.
+ * navigation session. This method is only available to Mobility Services customers who are billed
+ * by Google on a per-transaction basis. Returns a `nil` value if the project lacks permission to
+ * call this API.
  *
  * @param transactionIDs The transaction IDs that apply to the current navigation session. The
  *     transaction ID must be unique for each billable transaction. An individual transaction ID

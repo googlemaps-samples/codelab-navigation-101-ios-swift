@@ -10,11 +10,15 @@
 
 #import <Foundation/Foundation.h>
 
-
 #import "GMSFeature.h"
 
 NS_ASSUME_NONNULL_BEGIN
 NS_SWIFT_NAME(DatasetFeature)
+/**
+ * An interface representing a feature from a dataset.
+ *
+ * The featureType of a DatasetFeature will always be @c GMSFeatureTypeDataset.
+ */
 @interface GMSDatasetFeature : NSObject <GMSFeature>
 
 /** Dataset id of the dataset that this feature belongs to. */

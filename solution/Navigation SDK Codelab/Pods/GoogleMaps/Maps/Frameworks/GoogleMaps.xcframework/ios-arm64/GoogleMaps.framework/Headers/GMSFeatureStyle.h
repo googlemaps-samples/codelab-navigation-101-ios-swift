@@ -17,8 +17,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 /** Specifies how a map feature should appear when displayed on a map. */
 NS_SWIFT_NAME(FeatureStyle)
-@interface GMSFeatureStyle :
-    NSObject <NSCopying, NSMutableCopying>
+@interface GMSFeatureStyle : NSObject <NSCopying, NSMutableCopying>
 
 /** Creates a new style. */
 + (instancetype)styleWithFillColor:(nullable UIColor *)fillColor
@@ -31,6 +30,7 @@ NS_SWIFT_NAME(FeatureStyle)
                       strokeColor:(nullable UIColor *)strokeColor
                       strokeWidth:(CGFloat)strokeWidth NS_DESIGNATED_INITIALIZER;
 
+/** Initializes a default style. */
 - (instancetype)init NS_DESIGNATED_INITIALIZER;
 
 /** Specifies the fill color, including the alpha channel. */

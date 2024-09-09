@@ -12,7 +12,6 @@
 #import <UIKit/UIKit.h>
 
 
-
 @class GMSNavigationStepInfoImageOptions;
 
 NS_ASSUME_NONNULL_BEGIN

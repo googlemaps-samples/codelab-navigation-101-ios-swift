@@ -12,7 +12,6 @@
 
 #import "GMSNavigationTypes.h"
 
-
 @class GMSNavigationInstructionOptions;
 @class GMSNavigationStepInfo;
 
@@ -51,7 +50,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 /** The estimated remaining distance in meters to the final destination.*/
 @property(nonatomic, readonly) CLLocationDistance distanceToFinalDestinationMeters;
-
 
 /**
  * Returns a time rounded to the nearest minute, with a minimum of one minute.

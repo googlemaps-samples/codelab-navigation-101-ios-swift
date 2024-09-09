@@ -17,8 +17,8 @@ NS_ASSUME_NONNULL_BEGIN
 typedef void (^GMSNavigationTransactionRecorderErrorHandler)(NSError *error);
 
 /**
- * Contains methods for recording transactions. This class should only be used if your company is
- * billed by Google on a per-transaction basis.
+ * Contains methods for recording transactions. This class should only be used if you are a Mobility
+ * Services customer and are billed by Google on a per-transaction basis.
  */
 @interface GMSNavigationTransactionRecorder : NSObject
 

@@ -18,6 +18,7 @@
 #import <GoogleNavigation/GMSNavigationSpeedometerUIOptions.h>
 #import <GoogleNavigation/GMSNavigationStepInfo.h>
 #import <GoogleNavigation/GMSNavigationStepInfoImageOptions.h>
+#import <GoogleNavigation/GMSNavigationTermsAndConditionsOptions.h>
 #import <GoogleNavigation/GMSNavigationTermsDialogUIParams.h>
 #import <GoogleNavigation/GMSNavigationTimeAndDistance.h>
 #import <GoogleNavigation/GMSNavigationTransactionRecorder.h>
